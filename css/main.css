@@ -1,0 +1,131 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+body {
+background-color: #ffe0de;
+}
+header, nav ul {
+  display: flex;
+}
+header{
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  border-bottom: 3px solid #ebbab7;
+}
+header li{
+  list-style: none;
+  margin-right: 1em;
+}
+header a{
+  text-decoration: none;
+  color: black;
+  Link underline */
+}
+
+header {
+  margin: auto;
+  width: 85%;
+}
+button {
+			color: #000000;
+			background-color: #ffe0de;
+			font-size: 19px;
+			border: 1px solid #f7c5dd;
+			border-radius: 25px;
+			padding: 15px 50px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #2d63c8;
+			background-color: #ffffff;
+		}
+    .hero {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  .hero{
+  padding-left: 138px;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+h1 {
+  font-size: 100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h2, h3, h4 {
+  font-size: 35px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+.lilled {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  padding-left: 100px;
+}
+h1 {
+  padding-left: 40px;
+}
+
+.footergrid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+div.ON {
+  text-align: center;
+}
+div.Cer {
+  text-align: center;
+}
+
+div.FOR {
+  text-align: center;
+}
+footer{
+  padding-top: 98px;
+}
